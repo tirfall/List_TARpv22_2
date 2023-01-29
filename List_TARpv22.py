@@ -1,7 +1,60 @@
 from random import *
 
-#Ülesanne 0
 
+
+#Ülesanne 0
+word = str(input(""))
+while True:
+    print("Menu:")
+    print("1. Function 1")
+    print("2. Function 2")
+    print("3. Function 3")
+    print("4. Function 4")
+    print("5. Function 5")
+    print("6. Function 6")
+    print("7. Function 7")
+    print("8. Function 8")
+    print("9. Function 9")
+    print("10. Function 10")
+    print("0 - stop")
+
+    choice = int(input("Sinu valik: "))
+
+    if choice == 1:
+        # Function 1 implementation
+        pass
+    elif choice == 2:
+        # Function 2 implementation
+        pass
+    elif choice == 3:
+        # Function 3 implementation
+        pass
+    elif choice == 4:
+        # Function 4 implementation
+        pass
+    elif choice == 5:
+        # Function 5 implementation
+        pass
+    elif choice == 6:
+        # Function 6 implementation
+        pass
+    elif choice == 7:
+        # Function 7 implementation
+        pass
+    elif choice == 8:
+        # Function 8 implementation
+        pass
+    elif choice == 9:
+        # Function 9 implementation
+        pass
+    elif choice == 10:
+        # Function 10 implementation
+        pass
+    elif choice == 0:
+        print("Head aega!")
+        break
+    else:
+        print("Valik error")
 
 #Ülesanne 1
 #nimi_list = []
@@ -30,7 +83,20 @@ from random import *
 #        break
 
 #Ülesanne 3
-
+#studentid = ["Kati","Mario","Viki","Kati","Nikolas","Nikolas"]
+#print(studentid)
+#print()
+#x=i=len(studentid)
+#while i>=0:
+#    i-=1
+#    x=len(studentid)-1
+#    while x>=0 and i>=0:
+#        if x!=i and studentid[x]==studentid[i]:
+#            studentid.pop(x)
+#            if len(studentid)==i:
+#                i-=1
+#        x-=1
+#print(studentid)
 
 #Ülesanne 4
 #while True:
@@ -52,3 +118,20 @@ from random import *
 #    print(sum(vanus_list) / len(vanus_list), "Keskmine vanus")
 #else:
 #    print("Head aega!")
+
+
+#Ülesanne 5
+#linumb = []
+#x = 1
+#while x == 1:
+#    ansnumb = int(input("Tere, mis numbrid sa tahad?\n"))
+#    linumb.append(ansnumb)
+#    anskoik = (input("Kas see on kõik? jah või ei:"))
+#    if anskoik == ("jah"):
+#        x = 2
+#    if anskoik == ("ei"):
+#        x = 1
+#print(linumb)
+#for i, item in enumerate (linumb):
+#    print("*"*linumb[i-1])
+#print()
