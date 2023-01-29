@@ -1,54 +1,53 @@
 from random import *
 
 
-
 #Ülesanne 0
 word = str(input(""))
 while True:
     print("Menu:")
-    print("1. Function 1")
-    print("2. Function 2")
-    print("3. Function 3")
-    print("4. Function 4")
-    print("5. Function 5")
-    print("6. Function 6")
-    print("7. Function 7")
-    print("8. Function 8")
-    print("9. Function 9")
-    print("10. Function 10")
+    print("1 1")
+    print(" 2")
+    print(" 3")
+    print(" 4")
+    print(" 5")
+    print(" 6")
+    print(" 7")
+    print(" 8")
+    print(" 9")
+    print(" 10")
     print("0 - stop")
 
     choice = int(input("Sinu valik: "))
 
     if choice == 1:
-        # Function 1 implementation
+        
         pass
     elif choice == 2:
-        # Function 2 implementation
+        
         pass
     elif choice == 3:
-        # Function 3 implementation
+        
         pass
     elif choice == 4:
-        # Function 4 implementation
+        
         pass
     elif choice == 5:
-        # Function 5 implementation
+        
         pass
     elif choice == 6:
-        # Function 6 implementation
+        
         pass
     elif choice == 7:
-        # Function 7 implementation
+        
         pass
     elif choice == 8:
-        # Function 8 implementation
+        
         pass
     elif choice == 9:
-        # Function 9 implementation
+        
         pass
     elif choice == 10:
-        # Function 10 implementation
+        
         pass
     elif choice == 0:
         print("Head aega!")
